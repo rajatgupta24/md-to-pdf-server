@@ -3,10 +3,12 @@ const fs = require("fs");
 const path = require("path");
 const markdownpdf = require("markdown-pdf");
 const base64 = require("base64topdf");
+const cors = require('cors');
 
 const app = express();
 const port = process.env.PORT || 5000
 
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {

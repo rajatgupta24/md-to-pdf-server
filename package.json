@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "base64topdf": "^1.1.8",
+    "cors": "^2.8.5",
     "express": "^4.18.1",
     "markdown-pdf": "^10.0.0"
   }
